@@ -3,28 +3,28 @@ body {
   /**/
   border: 10px solid goldenrod;
 }
-
+/*extra*/
 .mega {
   border: 15px solid violet;
-  display: flex;
-  justify-content: center;
+  display: flex; /*extra*/
+  justify-content: center; /*extra*/
 }
 
 /**/
 .items {
   border: 5px dashed black;
-  display: flex;
-  justify-content: center;
-  width: 800px;
-  gap: 52px;
+  display: flex; /**/
+  justify-content: center; /**/
+  gap: 52px; /**/
 }
 
 .content {
   border: medium dotted gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  display: flex; /*extra*/
+  justify-content: center; /*extra*/
+  align-items: center; /*extra*/
+  flex-wrap: wrap; /*extra*/
+  max-width: 200px;
 }
 
 img {
@@ -37,7 +37,7 @@ img {
 .text {
   /**/
   border: thin solid greenyellow;
-  text-align: center;
+  text-align: center; /*extra*/
 }
 
 .title {
@@ -45,8 +45,8 @@ img {
   font-weight: 900;
   /**/
   border: medium solid orangered;
-  margin-bottom: 32px;
-  text-align: center;
+  margin-bottom: 32px; /**/
+  text-align: center; /*extra*/
 }
 
 /* do not edit this footer */
