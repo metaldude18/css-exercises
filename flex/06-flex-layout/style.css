@@ -1,14 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  text-decoration: none;
+  list-style: none;
+}
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /**/
+  border: 10px dotted gray;
+  display: flex;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 10px solid blueviolet;
+  position: fixed;
+}
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
 }
 
 img {
   width: 600px;
+  /**/
+  border: 10px solid blueviolet;
 }
 
 button {
@@ -16,6 +58,10 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /**/
+  border: 5px dashed green;
+  padding: 10px;
+  display: flex;
 }
 
 input {
@@ -24,4 +70,18 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  /**/
+  border: 5px outset red;
+}
+/**/
+
+.footer {
+  background-color: #eee;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
 }
